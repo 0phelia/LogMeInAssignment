@@ -20,7 +20,7 @@ import org.koin.android.ext.android.inject
 
 class FeedEntriesFragment : Fragment() {
 
-    private val feedEntryViewModel: FeedEntriesViewModel  by inject<FeedEntriesViewModel>()
+    private val feedEntryViewModel: FeedEntryViewModel  by inject<FeedEntryViewModel>()
 
     private lateinit var lm: RecyclerView.LayoutManager
     private lateinit var ad: FeedEntriesAdapter
